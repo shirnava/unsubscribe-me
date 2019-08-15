@@ -1,6 +1,6 @@
 # unsubscribe-me
 
-A python script that lets you easily unsubscribe from newsletters and other annoying senders.
+A python script that lets you easily unsubscribe your Gmail account from newsletters and other annoying senders.
 
 # Usage
 
@@ -16,6 +16,10 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 ```
 python main.py
 ```
+
+4. Log in to your Gmail.
+
+5. The script will ask you if you want to unsubscribe from each provider. Answer y/n (yes/no). When you answer "y", a webpage will open up for you to unsubscribe from.
 
 # Screenshot
 
