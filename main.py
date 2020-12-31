@@ -91,13 +91,7 @@ def main():
 
                                             if cont == "y":
                                                 # Open unsubscribe link in default browser (Chrome?)
-                                                webbrowser.get('windows-default').open(link,new=2)
-                                                    
-
-                                    
-                    
-                    
-            
+                                                webbrowser.get('windows-default').open(link,new=2)            
 
 if __name__ == '__main__':
     main()
